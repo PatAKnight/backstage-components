@@ -6,4 +6,4 @@ spec:
   profile:
     email: pknight@redhat.com
     displayName: Patrick Knight
-  memberOf: [janus-authors]
+  memberOf: '[janus-authors]'
