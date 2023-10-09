@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test
+  title: Test
+  description: |
+    This is a test
+spec:
+  type: website
+  owner: guests
+  lifecycle: production
