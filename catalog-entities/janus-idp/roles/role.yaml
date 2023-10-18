@@ -1,0 +1,11 @@
+apiVersion: rbac.backstage.io/v1alpha1
+kind: Role
+metadata:
+  name: janus-idp-role
+  title: Janus-IDP Role
+  description: The Role that defines the permissions associated with the Janus-IDP team
+  tags: [rbac, permissions]
+spec:
+  users: [janus-authors, user:pataknight]
+  permissions: [catalog.entity.create, catalog.entity.delete]
+  owner: user:pataknight
