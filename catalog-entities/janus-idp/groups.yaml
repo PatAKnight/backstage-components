@@ -6,3 +6,6 @@ metadata:
 spec:
   targets:
     - ./groups/guests.yaml
+    - ./groups/engineer.yaml
+    - ./groups/janus-authors.yaml
+    - ./groups/team-a.yaml
