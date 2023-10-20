@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: engineering
+  title: Engineering all
+spec:
+  type: team
+  children: [janus-authors, team-a]
