@@ -6,4 +6,3 @@ metadata:
 spec:
   type: team
   children: [janus-authors, team-a]
-  members: [janus-authors, team-a]
