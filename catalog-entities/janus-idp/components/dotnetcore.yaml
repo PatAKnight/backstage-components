@@ -8,6 +8,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-id: 'janus-idp'
     backstage.io/kubernetes-namespace: janus-idp-prod
+    janus-idp.io/tekton : backstage-janus
 spec:
   type: service
   system: janus-idp
