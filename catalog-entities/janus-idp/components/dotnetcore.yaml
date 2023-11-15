@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dotnetcore
+  title: DotNetCore
+  description: |
+    Example of a tekton resource s2i-dotnetcore-ex
+  annotations:
+    backstage.io/kubernetes-id: 'janus-idp'
+    backstage.io/kubernetes-namespace: janus-idp-prod
+spec:
+  type: service
+  system: janus-idp
+  owner: janus-authors
+  lifecycle: production

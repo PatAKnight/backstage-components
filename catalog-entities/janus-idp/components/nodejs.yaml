@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nodejs
+  title: NodeJS
+  description: |
+    Example of a tekton resource nodejs
+  annotations:
+    backstage.io/kubernetes-id: 'janus-idp'
+    backstage.io/kubernetes-namespace: janus-idp-prod
+spec:
+  type: service
+  system: janus-idp
+  owner: janus-authors
+  lifecycle: production
