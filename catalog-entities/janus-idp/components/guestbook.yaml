@@ -6,7 +6,7 @@ metadata:
   description: |
     Example of an application deployed to ArgoCD for testing the ArgoCD plugin
   annotations:
-  argocd/app-name: guestbook
+    argocd/app-name: guestbook
 spec:
   type: website
   system: guestbook
