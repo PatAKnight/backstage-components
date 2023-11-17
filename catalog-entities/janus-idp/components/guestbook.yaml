@@ -8,7 +8,7 @@ metadata:
   annotations:
   argocd/app-name: guestbook
 spec:
-  type: service
+  type: website
   system: guestbook
   owner: janus-authors
   lifecycle: production
