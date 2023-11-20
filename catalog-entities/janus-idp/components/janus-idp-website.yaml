@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: janus-idp-website
+  title: Janus IDP Website
+  description: |
+    This is the Janus Community Website
+  links:
+    - title: Janus Website
+      url: https://janus-idp.io
+  annotations:
+    github.com/project-slug: janus-idp/janus-idp.github.io
+    lighthouse.com/website-url: https://janus-idp.io
+spec:
+  type: website
+  system: janus-idp
+  owner: janus-authors
+  lifecycle: production
