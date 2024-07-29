@@ -1,0 +1,35 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rhdh
+  title: RHDH
+  description: |
+    This is the the Red Hat Developer Hub
+  links:
+    - title: Janus Website
+      url: https://janus-idp.io
+    - title: Janus Showcase
+      url: https://showcase.janus-idp.io/
+    - title: Blog
+      url: https://janus-idp.io/blog
+    - title: Backstage Discord
+      url: https://discord.com/servers/backstage-687207715902193673
+  annotations:
+    argocd/app-name: 'rhdh'
+    backstage.io/kubernetes-id: 'rhdh'
+    github.com/project-slug: janus-idp/backstage-showcase
+    quay.io/repository-slug: janus-idp/backstage-showcase
+    backstage.io/techdocs-ref: url:https://github.com/janus-idp/backstage-showcase
+    backstage.io/kubernetes-namespace: rhdh
+    sonarqube.org/project-key: janus-idp_backstage-showcase
+spec:
+  type: website
+  system: janus-idp
+  owner: janus-authors
+  lifecycle: production
+  dependsOn:
+    - resource:pgdb
+    - resource:argocd
+    - resource:obc
+    - resource:keycloak
+    - resource:github
