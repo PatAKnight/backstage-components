@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-entity
+  annotations:
+    pagerduty.com/service-id: PQRF0ZZ
+spec:
+  type: website
+  lifecycle: development
+  owner: janus-authors
