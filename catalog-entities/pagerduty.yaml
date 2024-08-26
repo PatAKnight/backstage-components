@@ -4,7 +4,6 @@ metadata:
   name: test-entity
   annotations:
     pagerduty.com/integration-key: 794ecf45928a450bc08eeae3ecb933dd
-    pagerduty.com/service-id: PQRF0ZZ
 spec:
   type: website
   lifecycle: development
