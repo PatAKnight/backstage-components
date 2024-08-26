@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test
+  description: test
+  annotations:
+    nexus-repository-manager/docker.image-name: test/httpd
+spec:
+  type: service
+  system: integrations
+  lifecycle: qa
+  owner: 'user:default/backstageadmin'
