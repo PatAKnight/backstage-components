@@ -25,7 +25,7 @@ metadata:
 spec:
   type: website
   system: janus-idp
-  owner: janus-authors
+  owner: marvel
   lifecycle: production
   dependsOn:
     - resource:pgdb

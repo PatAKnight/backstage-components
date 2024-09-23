@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: scott-website
+  title: Scott's website
+  description: |
+    Website for Scott
+spec:
+  type: service
+  system: x-men
+  owner: scott
+  lifecycle: production

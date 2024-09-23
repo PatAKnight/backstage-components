@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tony-website
+  title: Tony's website
+  description: |
+    Website for tony
+spec:
+  type: service
+  system: avengers
+  owner: tony
+  lifecycle: production

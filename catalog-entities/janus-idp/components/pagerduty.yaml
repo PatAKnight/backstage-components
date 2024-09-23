@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pagerduty-entity
+spec:
+  type: website
+  lifecycle: development
+  owner: x-men

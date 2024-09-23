@@ -10,5 +10,5 @@ metadata:
 spec:
   type: website
   system: guestbook
-  owner: janus-authors
+  owner: avengers
   lifecycle: production
