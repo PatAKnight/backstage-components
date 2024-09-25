@@ -6,4 +6,13 @@ metadata:
 spec:
   type: url
   targets:
-    - https://github.com/janus-idp/backstage-showcase/blob/main/catalog-entities/all.yaml
+    - ./components/guestbook.yaml
+    - ./components/dotnetcore.yaml
+    - ./components/http.local.yaml
+    - ./components/janus-idp-website.yaml
+    - ./components/nodejs.yaml
+    - ./components/pagerduty.yaml
+    - ./components/rhdh.yaml
+    - ./components/scott-website.yaml
+    - ./components/template.yaml
+    - ./components/website.yaml
