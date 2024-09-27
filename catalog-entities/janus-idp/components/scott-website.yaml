@@ -8,5 +8,5 @@ metadata:
 spec:
   type: service
   system: x-men
-  owner: scott
+  owner: cyclops
   lifecycle: production
