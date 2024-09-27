@@ -8,5 +8,5 @@ metadata:
 spec:
   type: service
   system: avengers
-  owner: ironman
+  owner: user:default/ironman
   lifecycle: production
