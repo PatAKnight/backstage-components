@@ -8,7 +8,7 @@ spec:
   targets:
     - ./components/guestbook.yaml
     - ./components/dotnetcore.yaml
-    - ./components/http.local.yaml
+    - ./components/httpd.local.yaml
     - ./components/janus-idp-website.yaml
     - ./components/nodejs.yaml
     - ./components/pagerduty.yaml
