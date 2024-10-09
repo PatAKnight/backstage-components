@@ -5,6 +5,7 @@ metadata:
   description: test
   annotations:
     nexus-repository-manager/docker.image-name: test/httpd
+    jfrog-artifactory/image-name: httpd
 spec:
   type: service
   system: integrations
