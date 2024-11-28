@@ -16,3 +16,4 @@ spec:
     - ./components/scott-website.yaml
     - ./components/template.yaml
     - ./components/website.yaml
+    - ./components/developer-hub.yaml
